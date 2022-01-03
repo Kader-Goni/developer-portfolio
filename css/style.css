@@ -10,9 +10,12 @@ h1{
 }
 
 
-#banner{
+section{
     display: flex;
+}
+#banner{
     background: url(../images/top-banner.png) no-repeat;
+    margin-bottom: 150px;
 }
 .side-part{
     width: 50%;
@@ -34,7 +37,12 @@ h1{
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
-
 #banner img{
-    width: 85%;
+    width: 80%;
+}
+
+#dream-big{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }

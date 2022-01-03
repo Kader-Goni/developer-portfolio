@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -8,13 +9,17 @@ h1{
     color: orange;
 }
 
+section{
+    /* display: flex; */
+}
 #banner{
     display: flex;
+    background: url(../images/top-banner.png) no-repeat;
 }
-#banner .side-part{
+.side-part{
     width: 50%;
     margin-top: 5px;
-    padding: 0 70px;
+    padding-left: 5%;
 }
 #banner p{
     padding-right: 190px;

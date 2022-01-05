@@ -9,7 +9,7 @@ h2{
     font-size: 40px;
 }
 .name-highlight{
-    color: orange;
+    color: #ec73d0;
 }
 
 
@@ -32,7 +32,7 @@ h2{
 .link-button{
     text-decoration: none;
     color: #fff;
-    background-image: linear-gradient(orange, red);
+    background-image: linear-gradient(45deg, #ec73d0, #948dea);
     padding: 10px 35px;
     border-radius: 8px;
     -webkit-border-radius: 8px;
